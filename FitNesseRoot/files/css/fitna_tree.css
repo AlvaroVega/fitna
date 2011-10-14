@@ -1,0 +1,37 @@
+.fitna_table {
+	border-collapse: collapse;
+	border-left: none;
+	border-top: none;
+}
+
+.top_cell {
+	border: 1px solid black;
+}
+
+.left_col {
+	border-bottom: none;
+	border-top: none;
+}
+
+.left_col_tree {
+	border: none;
+}
+
+.right_col {
+	border-right: none;
+	border-bottom: none;
+	border-top: none;
+}
+
+.tree_cell {
+	border-left: none;
+	border-right: none;
+}
+
+.row_exp {
+	display: none;
+}
+
+td {
+	display: table-cell;
+}

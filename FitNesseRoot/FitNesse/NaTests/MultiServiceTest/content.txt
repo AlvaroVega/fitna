@@ -1,0 +1,14 @@
+You can compose a multiservice test by copying wiki-table test content into a [[new][.FitNesse.NaTests.MultiServiceTest?responder=addChild&name=NewTestExample&pageType=Test]] wiki test.
+Also you can refer in one table the result value of another table using {{{ #TableName.result_name(row_number) }}}
+
+|!c !2 Tests de Servicios Multiples de NA|
+|!contents -g|
+
+
+
+
+
+
+
+
+

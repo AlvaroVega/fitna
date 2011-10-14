@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--Generado a Mano: Feb 11 2009 -->
+<NA_DESCRIPTOR TipoServicio = "1" Middleware="JAVA" Cabecera="TdE" Programa ="com.telefonica.litt.na.LEB0003DivideStringServicio" Descripcion ="Prueba de Servicio NA para BDD" >
+  <NA_GRUPO Nombre = "ENTRADA" Acceso="E" >
+    <NA_CAMPO Nombre = "CADENA" Longitud = "80" Tipo = "2" />
+  </NA_GRUPO>
+  <NA_GRUPO Nombre = "SALIDA" Acceso="S" >
+    <NA_CAMPO Nombre = "PARTE_1" Longitud = "80" Tipo = "2" />
+    <NA_CAMPO Nombre = "PARTE_2" Longitud = "80" Tipo = "2"/>
+  </NA_GRUPO>
+</NA_DESCRIPTOR>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--Generado a Mano: Feb 11 2009 -->
+<NA_DESCRIPTOR TipoServicio = "1" Middleware="JAVA" Cabecera="TdE" Programa ="com.telefonica.ssnn.vz.PLB0001PruebaServicio" Descripcion ="Prueba de Servicio NA para PL" >
+  <NA_GRUPO Nombre = "ENTRADA" Acceso="E" >
+    <NA_CAMPO Nombre = "ORDEN-HIDRA" Longitud = "80" Tipo = "2" />
+    <NA_CAMPO Nombre = "ID-PRUEBA" Longitud = "80" Tipo = "2" />
+    <NA_CAMPO Nombre = "ID-GRUPO-PRUEBAS" Longitud = "80" Tipo = "2" />
+    <NA_CAMPO Nombre = "TELEFONO" Longitud = "11" Tipo = "3" />
+    <NA_CAMPO Nombre = "NUMERO-ADMINISTRATIVO-TELEFONO" Longitud = "30" Tipo = "3" />
+    <NA_CAMPO Nombre = "ID-SISTEMA" Longitud = "80" Tipo = "2" />
+  </NA_GRUPO>
+  <NA_GRUPO Nombre = "SALIDA" Acceso="S" >
+    <NA_CAMPO Nombre = "NOMBRE-PRUEBA" Longitud = "80" Tipo = "2" />
+    <NA_CAMPO Nombre = "ID-PRUEBA-S" Longitud = "80" Tipo = "2" />
+    <NA_CAMPO Nombre = "FECHA" Longitud = "13" Tipo = "3" />
+    <NA_GRUPO Nombre = "DIAGNOSTICO">
+      <NA_CAMPO Nombre = "CODIGO-DIAGNOSTICO" Longitud = "80" Tipo = "2" />
+      <NA_CAMPO Nombre = "TEXTO-DIAGNOSTICO" Longitud = "255" Tipo = "2" />
+    </NA_GRUPO>
+    <NA_GRUPO Nombre = "ERROR">
+      <NA_CAMPO Nombre = "CODIGO-ERROR" Longitud = "80" Tipo = "2" />
+      <NA_CAMPO Nombre = "TEXTO-ERROR" Longitud = "255" Tipo = "2" />
+    </NA_GRUPO>
+  </NA_GRUPO>
+</NA_DESCRIPTOR>

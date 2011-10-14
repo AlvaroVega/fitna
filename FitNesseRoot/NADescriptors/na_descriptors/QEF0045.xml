@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!-- DESCRIPTOR generado el 08/FEB/2007 a las 17:18:05 a partir de la COPY QEC3BU00 -->
+<!-- INVENTARIADO EN CATALOGO DE COMPONENTES -->
+<!-- NO MODIFICAR A MANO -->
+<NA_DESCRIPTOR TipoServicio="1" Middleware="ECI" Programa="QEBUSVCO" Cabecera="TdE" Descripcion="DADO UN CODIGO UNICO DE SERVICIO, OBTENER LOS NIVELES SUPERIORES AL MISMO">
+  <NA_GRUPO Acceso="E" Nombre="QECVBU00-ENTRADA">
+    <NA_CAMPO Nombre="E-BU00-CO-UNI-SERVICI" Tipo="2" Longitud="8"/>
+    <NA_CAMPO Nombre="E-BU00-FECHA-APLICACION" Tipo="2" Longitud="10"/>
+    <NA_CAMPO Nombre="E-BU00-HORA-APLICACION" Tipo="2" Longitud="15"/>
+  </NA_GRUPO>
+  <NA_GRUPO Acceso="S" Nombre="QECVBU00-SALIDA">
+    <NA_CAMPO Nombre="S-BU00-COD-ERROR" Tipo="2" Longitud="4"/>
+    <NA_CAMPO Nombre="S-BU00-MENSA-ERROR" Tipo="2" Longitud="59"/>
+    <NA_GRUPO Nombre="S-BU00-ERROR-DB2" Redefine="S-BU00-MENSA-ERROR">
+      <NA_CAMPO Nombre="LITER1" Tipo="2" Longitud="8"/>
+      <NA_CAMPO Nombre="S-BU00-SQLCODE" Tipo="4" Longitud="4"/>
+      <NA_CAMPO Nombre="LITER2" Tipo="2" Longitud="6"/>
+      <NA_CAMPO Nombre="S-BU00-TABLA" Tipo="2" Longitud="8"/>
+      <NA_CAMPO Nombre="LITER3" Tipo="2" Longitud="4"/>
+      <NA_CAMPO Nombre="S-BU00-COMANDO" Tipo="2" Longitud="6"/>
+      <NA_CAMPO Nombre="LITER4" Tipo="2" Longitud="4"/>
+      <NA_CAMPO Nombre="S-BU00-PTO" Tipo="2" Longitud="19"/>
+    </NA_GRUPO>
+    <NA_CAMPO Nombre="S-BU00-NU-OCURRENCIAS" Tipo="3" Longitud="2"/>
+    <NA_GRUPO Nombre="S-BU00-PADRES" Occurs="8">
+      <NA_CAMPO Nombre="S-BU00-CO-UNI-SERVICI" Tipo="2" Longitud="8"/>
+      <NA_CAMPO Nombre="S-BU00-DS-NIVEL" Tipo="2" Longitud="100"/>
+      <NA_CAMPO Nombre="S-BU00-DS-UNI-SERVICI" Tipo="2" Longitud="100"/>
+    </NA_GRUPO>
+  </NA_GRUPO>
+</NA_DESCRIPTOR>

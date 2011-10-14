@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--Generado a Mano: Feb 11 2009 -->
+<NA_DESCRIPTOR TipoServicio = "1" Middleware="JAVA" Cabecera="TdE" Programa ="com.telefonica.litt.na.LEB0001BasicOKServicio" Descripcion ="Prueba de Servicio NA para BDD" >
+  <NA_GRUPO Nombre = "ENTRADA" Acceso="E" >
+    <NA_CAMPO Nombre = "ORDEN-HIDRA" Longitud = "80" Tipo = "2" />
+    <NA_CAMPO Nombre = "TELEFONO" Longitud = "11" Tipo = "3" />
+  </NA_GRUPO>
+  <NA_GRUPO Nombre = "SALIDA" Acceso="S" >
+    <NA_CAMPO Nombre = "NOMBRE-PRUEBA" Longitud = "80" Tipo = "2" />
+    <NA_CAMPO Nombre = "RESULTADO" Longitud = "80" Tipo = "2"/>
+    <NA_GRUPO Nombre = "ERROR">
+      <NA_CAMPO Nombre = "COD" Longitud = "80" Tipo = "2" />
+      <NA_CAMPO Nombre = "DESC" Longitud = "255" Tipo = "2" />
+    </NA_GRUPO>
+  </NA_GRUPO>
+</NA_DESCRIPTOR>

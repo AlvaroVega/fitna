@@ -1,0 +1,15 @@
+[[Add a new NA descriptor][NADescriptors]]
+
+|!c !2 Test de NA|
+|!contents -g|
+
+!path fitnesse.jar
+!path classes
+!path ./FitNesseRoot/classes
+
+
+
+
+
+
+
